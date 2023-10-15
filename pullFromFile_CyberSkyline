@@ -1,12 +1,12 @@
-#Hello, this is a test! 
+#Hello, this is a file that I've made that will look through a text file (log) and pull out the lines of text that I am looking for. 
+#I used this code and then put the pulled log lines into https://www.somacon.com/p568.php which removed & counted all the duplicates.
 
 def extract_dest_ip_lines(input_file_path, output_file_path):
   with open(input_file_path, 'r') as input_file, open(output_file_path, 'w') as output_file:
       lines = input_file.readlines()
       for i, line in enumerate(lines):
-          if line.startswith('      "hostname": "10.47.8.20",'):
-              #for j in range(i, min(i+7, len(lines))):  # Pull 6 lines down
+          if line.startswith('      "hostname": "10.47.8.20",'):   #this was the name of the line in the log I was looking for. I also looked for 4 other lines.
+              #for j in range(i, min(i+7, len(lines))):  # Pull 7 lines down - I cheanged this number to 
               output_file.write(lines[i+7])
 
-# Replace 'input_file.txt' and 'output_file.txt' with your actual file paths
 extract_dest_ip_lines('file.txt', 'output_file.txt')
