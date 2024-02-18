@@ -12,7 +12,7 @@ Project 4:
 
 Project 5: 
 
-Project 6:
+Project 6: Add another metaspoitable device using the terminal
 
 Project 7: Shells and Botnets
 
