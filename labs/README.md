@@ -4,9 +4,9 @@ Project 0: Setting up a Windows VM
 
 Project 1: APR Spoofing
 
-Project 2:
+Project 2: Wireshark
 
-Project 3:
+Project 3: OSINT
 
 Project 4:
 
