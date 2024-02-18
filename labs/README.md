@@ -2,7 +2,7 @@
 
 Project 0: Setting up a Windows VM
 
-Project 1:
+Project 1: APR Spoofing
 
 Project 2:
 
