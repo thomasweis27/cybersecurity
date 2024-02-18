@@ -10,7 +10,7 @@ Project 3: OSINT
 
 Project 4: 4.1 -DNS Enumeration and Zone Transfer requests.    4.2 - Nmap.    4.3 Vunerability Screening
 
-Project 5: 
+Project 5: SQL, Cracking Hashes, Burp Suite
 
 Project 6: Add another metaspoitable device using the terminal
 
