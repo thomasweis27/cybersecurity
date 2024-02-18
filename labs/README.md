@@ -3,3 +3,5 @@
 Project 0: Setting up a Windows VM
 
 Project 1: Shells and Botnets
+
+Project 2: Discovering Live Systems & Exploring Password-Based Attacks
