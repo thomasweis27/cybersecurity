@@ -15,4 +15,5 @@ Projects:
 6.0: Communication with a Reverse Shell, & Botnets <br />
 6.1: revShellServer.py for Lab 6.0 <br />
 6.2: reverse_shell.py for Lab 6.0 <br />
-7.0: Discovering & Profiling Systems and Creating Password Based Attacks <br />
+7.0: Discovering & Profiling Systems and Creating Password-Based Attacks <br />
+8.0: Pen Testing
