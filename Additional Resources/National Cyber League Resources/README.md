@@ -1,0 +1,1 @@
+Here are files I've made for the 2024 Fall NCL competition that I've worked on to help the current group of Wittenberg Cyber Graduates at the request of my professor. This includes some how-to steps that will help begin with the National Cyber League (NCL) and python files that have helped me complete various challanges. 
