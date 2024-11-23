@@ -116,19 +116,78 @@ CMMC Assessors and Instructors Certification Organization (CAICO)
   * Benefits are outdated but still on the CMMC-AB site
   * These assessors must pass the CCP and CCA exams within 6 months of the exam creation and viability
 * Provisional Instructors (PI) (Individual) (Training)
-  * 
+  * Purpose: Deliver training to the CCP and CCA trainees
+  * Requirements:
+    * Needed to pass the Registered Practitioner and Provisional Assessor requirements OR 10+ years in the IT/cyber field
+    * 20+ years as a consultant or leader in cybersecurity and qualify for DoD 8570 IAM Level III
+    * 2+ years teaching in IT/cyber
+    * Complete the CCP application process
+    * Complete the provisional instructor (PI) process
+    * Payment for PI training (at the beginning of the application process)
+    * Take the CMMC-AP PI class, pass the CMMC-AB PI exam, and pass the Certified CMMC Instructor (CCI) exam within 6 months of it coming out
+  * Responsibilities:
+    * Guide classes through learning objectives
+    * Convey real-life experience and info
+    * Deliver CMMC-approved exam prep
+    * Participate in ongoing CMMC assessments
 * Certified CMMC Profesional (CCP) (Individual) (Assessments)
+  * Purpose: First step to becoming a CCA, or understanding requirements for OSC, consulting organization (e.g., RPO, MSP)
+  * CCP Requirements:
+    * Possess a degree in Cyber/IT OR 2+ years experience in the field
+    * CompTIA A+ cert (recommendation to understanding cyber concepts)
+    * Pass DoD awareness training within 3 months of taking the exam.
+    * CMMC-AB approval in the submitted application
+    * Participate with a C3PAO on Level 2 assessments
+    * Pay the registration fee
+    * Register for the LTP course
+    * Pay exam fee
+    * pay anual matenence fee
+  * Purpose of Role:
+    * Employees of OSC (i.e., IT/cyber staff, compliance officers, legal, and management staff)
+    * Cyber consultants
+    * Federal employees
+    * CMMC Assessment Team Members
 * Certified CMMC Assessor (CCA) (Individual) (Assessments)
+  * Purpose: Builds on the qualifications for CCP, and conducts level 2 assessments under the umbrella of the C3PAO
+  * This has more stringent qualifications for the use and assessment of CUI
+  * CCA Requirements:
+    * Complete 3 assessments under a C3PAO
+    * be a US citizen
+    * Have the CCP certification
+    * 4+ years of IT/Cyber experience
+    * Complete CCA CMMC LTP training
+    * Complete a Tier 3 DoD background test
+  * CCP Certification Benefits:
+    * Can complete CMMC Level 2 assessments; the "largest role in the CMMC community"
+    * Can supervise CCP in the conduct of Level 2 assessments
+    * Can complete 85% of the responsibilities of the assessment (i.e., lead assessor), evaluate practices, review POA&M, plan requirements, etc.
+    * Use the CCA assessor logo and be in the CMMC-AB marketplace
+  * Responsibilities: 
+    * Guide classes through learning objectives
+    * Convey real-life experiences in scenarios
+    * Deliver CCMC-approved training
+  * Benefits:
+    * Have the same skills as the CCPs and if they want CCAs too.
+    * Participate in ongoing CMMC assessments to gather skills
+    * Assist in the development and review of LLP materials
 * Certified CMMC Instructor (CCI) (Individual) (Training)
+  * Requirements:
+    * 2+ years of instruction in IT/Cyber experience
+    * CCP Specific: college degree in a technical field, 2+ years in IT/Cyber field, hold CCP cert, and gain CMMC-AB approval of CCI application
+    * CCA Specific: 4+ years Cyber/It experience, complete LTP training & have CCA cert, complete tier 3 background check, and be US citizen
 * Assessment Team Member (ATM) (Individual)
+  * CCA or CCP professional to go through the CMMC Assessment Process (CAP) - this is led by a Provisional Assessor (PA) or Lead Assessor "at the target level or higher"
+  * CCA Only: Can serve as a Lead Assessor with an additional cert. or serve as a ATM evaluating OSC implementation (Level 1 or 2)
+  * CCP: Assist with administrative tasks, and evaluate OSC Level 1 evidence only.
 * CMMC Lead Assessor (Individual)
-
+  * Purpose: Oversees and manages the assessments and ensures the accuracy of these assessments. They have the strictest set of requirements.
+  * Must be CCP and CCA, hold an additional advances cert, and be registered as a Team Lead at the CMMC-AB site. 
 
 
 
 ---
 
-## Notes from the in-person class
+## Additional Notes from the In-Person Class
 * Office of the Undersecretary of Defence (OUSD) - Acquisitions
   * Currently the DoD CIO - however above is what's found on the exam
 * Standards and best practices, leverages existing frameworks (NIST SP 800-171 and SP 800-171A), and verify compliance with requirements
