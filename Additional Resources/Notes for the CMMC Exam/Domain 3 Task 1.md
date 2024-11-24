@@ -1,5 +1,37 @@
-# CMMC Governance and Source Documents
+# Domain 3 Task 1
+## CMMC Governance and Source Documents
+Current DoD DIB (Defence Industrial Base) Cyber efforts, regulations executive orders
+* Part 32 of the Code of Federal Regulations (CFR)
+* Defence Federal Acquisition Regulation Supplement (DFARS) - Part 48 for CFR
+* DFARS Clause 252.204-7012
+  * NIST SP 800-171
+  * Technical Data DFARS 252.227-7013
+  * FedRAMP 
+CMMC Framework Tenets:
+* CMMC v2.0 requirements:
+  * Streamlined model
+  * Reliable Assessments
+  * Flexible implementation
+* Rulemaking and timeline for CMMC v2.0
+* CMMC Levels of Assessments and Requirements
+  * Foundation/Level 1 (FAR Clause 52.204-21)
+  * Advanced/Level 2 (NIST 800-171)
+* Self Assessments vs. Third Party Assessments
+Non-Compliance Consequences:
+* Failure to receive the awarded contract
+* Contractual liability
+* False Claims Act (DoD Civil Cyber-Fraud Initiative)
 
+
+
+
+
+
+</br></br></br>
+
+---
+
+## Additional Notes from the In-Person Class
 CMMC Governance and Source Documents are based on:
 * Federal Acquisition Regulations
 * Defense Federal Acquisition Regulation Supplement
@@ -19,31 +51,31 @@ Defense Industrial Base (DIB): Cybersecurity Efforts, Regulations, and Executive
 ![image](https://github.com/user-attachments/assets/28dc4c90-8ac5-4d33-ad29-7c57e56c3a44)
 * These include:
   * CYBER THREAT INFORMATION/INTELLIGENCE SHARING WITH DIB
-    * DoD CISO/DIB CS Program - volentary public-private contract between DoD and DIP to share info/intel
-    * DC3/DCISE - operational arm of DIB CS Program, sharing threat info, itell, products and tools
+    * DoD CISO/DIB CS Program - voluntary public-private contract between DoD and DIP to share info/intel
+    * DC3/DCISE - an operational arm of DIB CS Program, sharing threat info, itell, products and tools
     * NSA - "left of boom" products and tools with DIB
       * "boom"=canon ball, on Cyber KillChain - exploiting a human - MFA **(this was a bit unclear)**
   * INCIDENT REPORTING
     * DoD CISO/DIB CS Program - The loss of DoD data.
-    * DC3/DCISE - clearinghouse for unclassified Mandatory Incedent Reports (MIR)
+    * DC3/DCISE - clearinghouse for unclassified Mandatory incident reports (MIR)
     * DCSA - clearinghouse of classified reports
       * Reporting 72 hours of discovery at https://dibnetdod.mil (DIBNet)
   * DIB CYBERSECURITY REQUIREMENTS & ASSESSMENT MECHANISMS
     * DoD CISO/DIB CS Program - assistance to DIB in understanding regulatory requirements
     * DCMA - Oversight of DFARS 252.204-7019/7020, DIBCAC
     * USD (A&S)- Oversight of DFARS 252204-7021, CMMC
-      * *DFARS 252.204-70197020 stipulates a contractor's requirement to implement NIST SP 800-171, have an assessment (basic, medium, or high), and prove ability to protect CUI.
-      * *DFARS 252.2047021 stipulates a contractor have current CMMC certificate at the CMMC level required by the contract, and maintain the certificate at the required level for the duration of the contract
+      * *DFARS 252.204-70197020 stipulates a contractor's requirement to implement NIST SP 800-171, have an assessment (basic, medium, or high), and prove the ability to protect CUI.
+      * *DFARS 252.2047021 stipulates a contractor have a current CMMC certificate at the CMMC level required by the contract, and maintain the certificate at the required level for the duration of the contract
   * CYBERSECURITY TECHNICAL ASSISTANCE AND COLLABORATION
-      * Support DIB as it's part of critical infastructure
+      * Support DIB as it's part of critical infrastructure
 
 
 32 CFR (Code of Federal Regulations)
 * Includes PART 2002 - CONTROLLED UNCLASSIFIED INFORMATION (CUI)
-* Includes DFARS --> contining contract requirements for DoD supplement info
-* CMMC rule establieshed to memorialize the verification requirements for 252.202-7012
+* Includes DFARS --> continuing contract requirements for DoD supplement info
+* CMMC rule established to memorialize the verification requirements for 252.202-7012
 48 CFR (Code of Federal Regulations)
-* Includes 7021 - Clause for cert requirements for contract-by-contract basis. [Not on exam]
+* Includes 7021 - Clause for cert requirements on a contract-by-contract basis. [Not on the exam]
 * FAR (not DFAR) --> Contains requirements for **all federal agencies** - including DoD
 * 52.202 --> Extend the compliance requirement for CUI to require 800-171 (800-171a)
 * **252.202-7012 --> will be expanded to all federal suppliers not just DoD**
@@ -54,7 +86,7 @@ Defense Industrial Base (DIB): Cybersecurity Efforts, Regulations, and Executive
 * Information Security Oversight Office (ISOO) to oversee the Federal Government-wide CUI Program
 
 ISOO- Information Security Oversight Office
-* Establishes policy for agencies on designating, safeguarding, disseminating, marking, decontrolling, and disposing of CUI, self-inspection and oversight requirements
+* Establishes policy for agencies on designating, safeguarding, disseminating, marking, decontrolling, and disposing of CUI, self-inspection, and oversight requirements
 
 The CUI Program affects
 * Federal executive branch agencies that handle CUI
@@ -76,13 +108,13 @@ More about CUI:
 * 5 2002.16 Accessing and disseminating
 * 5 2002.18 Decontrolling
 * 5 2002.20 Marking
-* 5 2002.22 Limitations on applicability of agency CUI policies
+* 5 2002.22 Limitations on the applicability of agency CUI policies
 * 5 2002.24 Agency self-inspection program
 
 ---
 
 FARS System - Established for the codification and publication of uniform policies and procedures for acquisition by all executive agencies
-* DFARS - D stands for DoD - cannot contredict, only supplement
+* DFARS - D stands for DoD - cannot contradict, only supplement
 * DFARS - starts with '25' instead of just '5'
 * DFARS Clause 252.204-7012: Safeguarding Covered Defense Information and Cyber Incident Reporting
   * Requirements: Adequate security per NIST Special Publication (SP) 800-171 & Rapidly report cyber incidents within 72 hours to DoD at https://dibnet.dod.mil
@@ -123,17 +155,17 @@ NIST SP 800-171
 NIST SP 800-171 Document structure
 * Fundamentals: Basic assumptions and how security requirements were developed
 * Requirements: 14 Security domains representing 110 security practices and Dedicated discussion for each security practice
-* Appendix A- References; list ofvetted references applied during document development
+* Appendix A- References; list of vetted references applied during document development
 * Appendix B - Glossary; approved and vetted terminology for consistently applying the framework
 * Appendix C - Acronyms; approved and vetted terminology for consistently applying the framework
 * Appendix D - Mapping Tables; cross reference to NIST 800-53 and ISO/IEC 27001
-* Appendix E - Tailoring Criteria; methodology used to extract relevant practices from federal standard
+* Appendix E - Tailoring Criteria; the methodology used to extract relevant practices from federal standard
 
 DFARS Clause 252.227-7013 Technical Data
 * Rights In Technical Data—noncommercial items (FEB 2014)
-  * Contractors grant the government royalty free, world-wide, nonexclusive, irrevocable license rights in technical data other than computer software documentation
+  * Contractors grant the government royalty-free, worldwide, nonexclusive, irrevocable license rights in technical data other than computer software documentation
 * The Government shall have
-  * Unlimited rights in technical data that are
+  * Unlimited rights to technical data that are
   * Government purpose rights for a five-year period
 * All rights not granted to the Government are retained by the Contractor
 * CMMC relevance: Technical data rights include assessment authority
@@ -155,23 +187,23 @@ DFARS Clause 252.204-7012 - FedRAMP
    * Alligned with NIST SP 800-171, 800-171A, 800-172, and 800-172A standards
 * Reliable Assessments:
   * Reduced Assessment Cost: Allows all companies at Level 1 (Foundational), and a subset of companies at Level 2 (Advanced) to demonstrate compliance through self-assessments
-  * Highter Accountability: Increases oversight of professional and ethical standards of third-party assessors
+  * Higher Accountability: Increases oversight of professional and ethical standards of third-party assessors
 * Flexible Implementation
   * Spirit of collaboration - DoD collaboration with Defense Industrial Base (DIB) to improve cybersecurity
   * Added flexibility and speed - CMMC 2.0 allows
   * Level 1 (FCI only) organizations "self-attest"
     * Assessment (all I IO practices) per the NIST DoD Assessment Methodology
-    * Enter score into the Supplier Performance Risk System (SPRS)
+    * Enter the score into the Supplier Performance Risk System (SPRS)
   * Level 2 (CUI and FCI) organizations may
     * Configure network to logically or physically separate scope for FCI only and for FCI and CUI
-    * C3PAO confirms that OSC conducted self assessment for FCI scope
-    * C3PAO verifies all 110 practices (FCI and CUI) within scope for the Level 2 assessment
+    * C3PAO confirms that OSC conducted a self-assessment for FCI scope
+    * C3PAO verifies all 110 practices (FCI and CUI) within the scope for the Level 2 assessment
 
 Rulemaking and Timeline for CMMC v2.O
 * When will CMMC 2.0 be required for DoD contracts?
   * CMMC 2.0 will not be a contractual requirement until the DoD completes rulemaking to implement the program
   * The rulemaking process and timelines typically take 9-24 months
-  * The Proposed Rule was published 12/26/2023
+  * The Proposed Rule was published on 12/26/2023
     * The public comment period lasts for 60 days
   * The Final Rule typically takes 280 days to complete once the proposed rule is published (i.e., first half of 2025)
   * CMMC 2.0 will become a contract requirement when DoD completes rulemaking and updates related assessment guides
