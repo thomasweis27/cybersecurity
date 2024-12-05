@@ -1,33 +1,151 @@
 # Domain 3 Task 1
 ## CMMC Governance and Source Documents
-Current DoD DIB (Defence Industrial Base) Cyber efforts, regulations executive orders
+### Current DoD DIB (Defence Industrial Base) Cyber efforts, regulations executive orders
 * Part 32 of the Code of Federal Regulations (CFR)
+  * DIB (Defence Industrial Base): Thousands of companies that partner with the DoD, typically chosen for price, performance, schedule, and security.
+  * 11/15/2021 strategy for cybersecurity:
+    * Cyber intel sharing
+    * DIB requirements and assessments
+    * Reporting
+    * assistance and collaboration
+![image](https://github.com/user-attachments/assets/28dc4c90-8ac5-4d33-ad29-7c57e56c3a44)
 * Defence Federal Acquisition Regulation Supplement (DFARS) - Part 48 for CFR
+  * The federal regs code was created in 2016 and updated in 2022. This was supposed to apply to the entire government starting with Executive Order 13556.
+  * Title 32 - The Code of Federal Regulations (32 CFR Part 2002) was the "implementing directive" for CUI control.
+  * Previously ad-hoc policies, dependent on the agency.
+  * 32 CFR Part 2002 Sections:
+    * Subpart 1: General Information - includes: Purpose and scope, incorporation by reference, Definitions, CUI EA (Executive Agent), and Roles & Responsibilities
+    * Subpart 2: Key elements of the CUI Program - includes: CUI registry, CUI categories & subcategories, safeguarding, accessing and disseminating, decontroling, marking, Limitations on applicability, and self-inspection policies.
+    * Subpart 3: CUI Program Management - includes: education & training, CUI cover sheets, transferring records, legacy material, waving requirements, CUI & disclosure statutes, CUI Privacy act, CUI Administrative Procedure Act (APA), challenges to designating info as CUI, dispurt resolition agencies, misuse of CUI, sanctions for CUI misuse. 
 * DFARS Clause 252.204-7012
-  * NIST SP 800-171
+  * The first version, made in 2017, overstepped the DoD's abilities and was walked back by the Office of the Undersecretary of Defence.
+  * This did require the implementation of NIST SP 800-171 </br></br></br>
+  * NIST SP 800-171:
+    * EO 13556 was meant to establish control over CUI
+    * NIST SP 800-171 r2 was derived from NIST SP 800-53 removing requirements that were for the federal government, not related to protecting CUI, expected to be done by non-federal orgs.
+    * NIST SP 800-171 r2 is used by CMMC 2.0 and contains 14 families containing 110 security requirements.
+    * Basic info was from the Federal Information Processing Standards (FIPS) 200, then supplemented by NIST SP 800-53. 
   * Technical Data DFARS 252.227-7013
-  * FedRAMP 
-CMMC Framework Tenets:
+    * Noncommercial technical information, may not be marked as CUI but needs safeguarding with the support of a gov. program. 
+  * FedRAMP (Federal Risk and Authorization Management Program):
+    * If a contractor uses an external cloud service provider for storing, transmitting, or processing data they need to meet FedRAMP requirements.
+    * Established in 2011 by the Office of Management and Budget (OMB), and is basically the Federal Information Security Moniterization Act (FISMA) for the Cloud.
+    * Cloud service providers (CSPs) and Agencies submit a Control Implementation Summary (CIS) including:
+      * Identified required security controls
+      * Customer Responsibility Matrix (CRM) - items required for the customer to maintain.
+    * Uses C3PAOs for external assessments
+    * Houses the Program Management Office (PMO) - a searchable database for cloud service offerings (CSOs) with FedRAMP certs.
+    * CSPs prepping for moderate status use a Redy Assessment Report (RAR) on the FedRamp Site. 
+
+</br></br>
+### CMMC Framework Tenets:
+* Using the current framework, CMMC cannot push any requirements - only the DoD
+* DoD contracts require each contract to determine the CMMC level required.
+  * All must have at least level 1 as they have Federal Contract information (FCI).
+  * All programs with/generating CUi will be at least Level 2.
+  * Programs with very sensitive CUI concerns will be Level 3. 
+* If subcontracting, the subcontractor needs certification with a level appropriate to the data handled.
+* CMMC-AB was created for independent oversight of the C3PAOs and OSCs with the strict Code of Personal Conduct (CoPE). </br></br></br>
 * CMMC v2.0 requirements:
-  * Streamlined model
-  * Reliable Assessments
-  * Flexible implementation
+  * New 2.0 goals: safeguard info, enhance DIB for cyber threats, ensure accountability, contribute to a collaborative culture, and maintain public trust.
+  * New Features: Tiered model, assessment requirement, and implementation through contracts. </br></br></br>
+  * Streamlined model:
+    * There are 3 tiers instead of the original 5 and simplified instead of having 2 & 3 and 4 & 5 being similar and 2 & 4 being a stepping stone to 3 & 5.
+    * Additional documentation requirements removed (although 2.0 requires a lot of documentation still)
+  * Reliable Assessments:
+    * Level 1 and 2 based on NIST SP 800-171 r2.
+    * Level 3 will be based on NIST SP 800-172 - more info coming from DoD about level 3 assessments.
+    * Allows for reduced cost implementation and some of the original self-attestation benefits for FCI and some CUI.
+      * There is more ability for the DoJ (Department of Justice) to pursue fraud (noncompliance).
+  * Flexible implementation:
+    * CMMC 2.0 lets for "near completion" status through the POA&M (Plan of Action & Milestones) process 100% perfection was unrealistic.
+    *  POA&Ms must be completed in 180 days and are not allowed on the most high-weighted requirements.
+    *  Allows for some CMMC wavers in VERY specific cases. 
 * Rulemaking and timeline for CMMC v2.0
+  * Requirements to be passed 2022/2023
+  * DIB to enhance Cyber posture before the release
+  * Before release, requirements are recommended, but not required.
+  * Two sections:
+    * 32 CFR - Established CMMC Program
+    * 48 CFR - Updates DFARS requirements and implements CMMC 2.0. 
 * CMMC Levels of Assessments and Requirements
   * Foundation/Level 1 (FAR Clause 52.204-21)
   * Advanced/Level 2 (NIST 800-171)
 * Self Assessments vs. Third Party Assessments
-Non-Compliance Consequences:
-* Failure to receive the awarded contract
-* Contractual liability
+
+
+|Level|Practices|Basis|CUI Type|Assessments|
+|:--:|:---|:---|:---|:---|
+|3|110+|NIST SP 800-172|Highest priority CUI|Triennial gov. lead|
+|2|110|NIST SP 800-171|CUI Prioritized acquisitions or Non-Prioritized CUI|Triennial 3rd party or Self assessment (respectively)|
+|1|17|NIST SP 800-171 & FAR Clause 52.204-21|Non critical FCI|Annual self assessment|
+
+</br>
+
+The 17 Basic Level 1 Security Requirements 
+1. Limit access to authorized users, processes, or devices
+2. Limit access to the type of actions that authorized users are permitted to execute
+3. Verify and control (or limit) connections to external information systems
+4. Control information posted or processed on publicly accessible systems
+5. Identify information system users, processes, or devices
+6. Authenticate identities of users, processes, or devices prior to allowing access
+7. Sanitize or destroy media containing Federal Contract Information
+8. Limit physical access to information systems, equipment, and operating environment to authorized individuals
+9. Escort visitors, monitor visitor activity, maintain audit logs of visitor activity, and control and manage physical devices
+  * This is the one that was turned into three (escort visitors, physical access logs, and manage physical access) 
+10. Monitor, control, and protect organizational communications
+11. Implement subnetworks for publicly accessible system components that are separated from internal networks
+12. Identify, report, and correct information and system flaws in a timely manner
+13. Provide protection from malicious code
+14. Update malicious code protection mechanisms when new releases are available
+15. Perform periodic scans of the system and real-time scans of files from external sources as files are downloaded, opened, or executed
+
+
+The 110 Level 2 Security Requirements
+* Mirror NIST SP 800-171 r2
+  * NIST SP 800-171 r2 has an ```Appendix E: NFO Controls``` that should be considered when addressing these.
+  * Users should utilize CMMC Assessment Guide Level 2
+
+
+Self vs Third-Party Assessments:
+* All Level 1 and some Level 2 data does "not include data critical to national security" - this means the self-assessment is acceptable.
+  * Requires annual assessments
+  * Requires affirmation from a senior company official
+  * Requires both annual assessment and affirmation to be uploaded to be uploaded to the Supplier Performance Risk System (SPRS).
+* Most Level 2 Companies require Third-Party Assessments
+  * Assessments are done by C3PAOs and they deliver the report to the DoD.
+  * C3PAOs can be found on the CMMC-AB site marketplace.
+* More guidance to come for level 3 assessments. </br></br>
+* Benefits to taking the Level 2 assessment if not required:
+  * Prepared for more advanced contracts
+  * Higher level of confidence/maturity
+  * Improved overall risk profile
+
+</br></br>
+### Non-Compliance Consequences:
+* Failure to receive the awarded contract:
+  * Non-compliance would mean losing out on the contract. They cannot accept the contract without the proper certifications (they can bid on one though). (Level 1 or Level 2)
+  * Compliance must be checked by the SPRS system by an officer.
+  * Non-compliance means losing the contract. 
+* Contractual liability:
+  * There must be a yearly < 1-year-old self assessment and, if applicable, < 3-year-old Level 2 formal assessment.
+  * If a sub-contractor fails to comply this can overtly affect the primary contract holder. 
 * False Claims Act (DoD Civil Cyber-Fraud Initiative)
+  * False Claims Act (FCA), 31 U.S.C Sections 3729-3733 was created in 1863 in response to defense contractor fraud in the Civil War.
+  * Now can cause payouts triple to the damages caused and penalties linked to inflation.
+  * Suits called and brought forth by "qui tam" aka whistleblowers, can receive a part of the settlement with an average of 30% of the settlement
+  * Civil Fraud Iniciative:
+    * 2021 DoJ Iniciative to use FAC to do cyber reviews and ensure compliance.
+    * "Hold accountable entities or individuals that put U.S systems or information at risk [...]"
+    * Benefits of the initiative include:
+      * Broad resiliency
+      * Holding contractors to signed requirements
+      * Help find, identify, and publish vulnerabilities to alert others to ongoing and developing threats.
+      * Incentivize rule-following and proper security/security investments.
+      * Reimburse taxpayers for lost money not directed to cyber funds and security and intended
+      * Improve overall practices.
 
-
-
-
-
-
-</br></br></br>
+</br></br></br></br></br></br></br></br></br>
 
 ---
 
