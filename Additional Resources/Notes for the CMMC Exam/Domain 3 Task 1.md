@@ -1,41 +1,41 @@
 # Domain 3 Task 1
 ## CMMC Governance and Source Documents
 ### Current DoD DIB (Defence Industrial Base) Cyber efforts, regulations executive orders
-* Part 32 of the Code of Federal Regulations (CFR)
-  * DIB (Defence Industrial Base): Thousands of companies that partner with the DoD, typically chosen for price, performance, schedule, and security.
-  * 11/15/2021 strategy for cybersecurity:
-    * Cyber intel sharing
-    * DIB requirements and assessments
-    * Reporting
-    * assistance and collaboration
+##### Part 32 of the Code of Federal Regulations (CFR)
+* DIB (Defence Industrial Base): Thousands of companies that partner with the DoD, typically chosen for price, performance, schedule, and security.
+* 11/15/2021 strategy for cybersecurity:
+  * Cyber intel sharing
+  * DIB requirements and assessments
+  * Reporting
+  * assistance and collaboration
 ![image](https://github.com/user-attachments/assets/28dc4c90-8ac5-4d33-ad29-7c57e56c3a44)
-* Defence Federal Acquisition Regulation Supplement (DFARS) - Part 48 for CFR
-  * The federal regs code was created in 2016 and updated in 2022. This was supposed to apply to the entire government starting with Executive Order 13556.
-  * Title 32 - The Code of Federal Regulations (32 CFR Part 2002) was the "implementing directive" for CUI control.
-  * Previously ad-hoc policies, dependent on the agency.
-  * 32 CFR Part 2002 Sections:
-    * Subpart 1: General Information - includes: Purpose and scope, incorporation by reference, Definitions, CUI EA (Executive Agent), and Roles & Responsibilities
-    * Subpart 2: Key elements of the CUI Program - includes: CUI registry, CUI categories & subcategories, safeguarding, accessing and disseminating, decontroling, marking, Limitations on applicability, and self-inspection policies.
-    * Subpart 3: CUI Program Management - includes: education & training, CUI cover sheets, transferring records, legacy material, waving requirements, CUI & disclosure statutes, CUI Privacy act, CUI Administrative Procedure Act (APA), challenges to designating info as CUI, dispurt resolition agencies, misuse of CUI, sanctions for CUI misuse. 
-* DFARS Clause 252.204-7012
-  * The first version, made in 2017, overstepped the DoD's abilities and was walked back by the Office of the Undersecretary of Defence.
-  * This did require the implementation of NIST SP 800-171 </br></br></br>
-  * NIST SP 800-171:
-    * EO 13556 was meant to establish control over CUI
-    * NIST SP 800-171 r2 was derived from NIST SP 800-53 removing requirements that were for the federal government, not related to protecting CUI, expected to be done by non-federal orgs.
-    * NIST SP 800-171 r2 is used by CMMC 2.0 and contains 14 families containing 110 security requirements.
-    * Basic info was from the Federal Information Processing Standards (FIPS) 200, then supplemented by NIST SP 800-53. 
-  * Technical Data DFARS 252.227-7013
-    * Noncommercial technical information, may not be marked as CUI but needs safeguarding with the support of a gov. program. 
-  * FedRAMP (Federal Risk and Authorization Management Program):
-    * If a contractor uses an external cloud service provider for storing, transmitting, or processing data they need to meet FedRAMP requirements.
-    * Established in 2011 by the Office of Management and Budget (OMB), and is basically the Federal Information Security Moniterization Act (FISMA) for the Cloud.
-    * Cloud service providers (CSPs) and Agencies submit a Control Implementation Summary (CIS) including:
-      * Identified required security controls
-      * Customer Responsibility Matrix (CRM) - items required for the customer to maintain.
-    * Uses C3PAOs for external assessments
-    * Houses the Program Management Office (PMO) - a searchable database for cloud service offerings (CSOs) with FedRAMP certs.
-    * CSPs prepping for moderate status use a Redy Assessment Report (RAR) on the FedRamp Site. 
+##### Defence Federal Acquisition Regulation Supplement (DFARS) - Part 48 for CFR
+* The federal regs code was created in 2016 and updated in 2022. This was supposed to apply to the entire government starting with Executive Order 13556.
+* Title 32 - The Code of Federal Regulations (32 CFR Part 2002) was the "implementing directive" for CUI control.
+* Previously ad-hoc policies, dependent on the agency.
+* 32 CFR Part 2002 Sections:
+  * Subpart 1: General Information - includes: Purpose and scope, incorporation by reference, Definitions, CUI EA (Executive Agent), and Roles & Responsibilities
+  * Subpart 2: Key elements of the CUI Program - includes: CUI registry, CUI categories & subcategories, safeguarding, accessing and disseminating, decontroling, marking, Limitations on applicability, and self-inspection policies.
+  * Subpart 3: CUI Program Management - includes: education & training, CUI cover sheets, transferring records, legacy material, waving requirements, CUI & disclosure statutes, CUI Privacy act, CUI Administrative Procedure Act (APA), challenges to designating info as CUI, dispurt resolition agencies, misuse of CUI, sanctions for CUI misuse. 
+##### DFARS Clause 252.204-7012
+* The first version, made in 2017, overstepped the DoD's abilities and was walked back by the Office of the Undersecretary of Defence.
+* This did require the implementation of NIST SP 800-171 </br></br></br>
+* NIST SP 800-171:
+  * EO 13556 was meant to establish control over CUI
+  * NIST SP 800-171 r2 was derived from NIST SP 800-53 removing requirements that were for the federal government, not related to protecting CUI, expected to be done by non-federal orgs.
+  * NIST SP 800-171 r2 is used by CMMC 2.0 and contains 14 families containing 110 security requirements.
+  * Basic info was from the Federal Information Processing Standards (FIPS) 200, then supplemented by NIST SP 800-53. 
+* Technical Data DFARS 252.227-7013
+  * Noncommercial technical information, may not be marked as CUI but needs safeguarding with the support of a gov. program. 
+* FedRAMP (Federal Risk and Authorization Management Program):
+  * If a contractor uses an external cloud service provider for storing, transmitting, or processing data they need to meet FedRAMP requirements.
+  * Established in 2011 by the Office of Management and Budget (OMB), and is basically the Federal Information Security Moniterization Act (FISMA) for the Cloud.
+  * Cloud service providers (CSPs) and Agencies submit a Control Implementation Summary (CIS) including:
+    * Identified required security controls
+    * Customer Responsibility Matrix (CRM) - items required for the customer to maintain.
+  * Uses C3PAOs for external assessments
+  * Houses the Program Management Office (PMO) - a searchable database for cloud service offerings (CSOs) with FedRAMP certs.
+  * CSPs prepping for moderate status use a Redy Assessment Report (RAR) on the FedRamp Site. 
 
 </br></br>
 ### CMMC Framework Tenets:
@@ -46,21 +46,21 @@
   * Programs with very sensitive CUI concerns will be Level 3. 
 * If subcontracting, the subcontractor needs certification with a level appropriate to the data handled.
 * CMMC-AB was created for independent oversight of the C3PAOs and OSCs with the strict Code of Personal Conduct (CoPE). </br></br></br>
-* CMMC v2.0 requirements:
-  * New 2.0 goals: safeguard info, enhance DIB for cyber threats, ensure accountability, contribute to a collaborative culture, and maintain public trust.
-  * New Features: Tiered model, assessment requirement, and implementation through contracts. </br></br></br>
-  * Streamlined model:
-    * There are 3 tiers instead of the original 5 and simplified instead of having 2 & 3 and 4 & 5 being similar and 2 & 4 being a stepping stone to 3 & 5.
-    * Additional documentation requirements removed (although 2.0 requires a lot of documentation still)
-  * Reliable Assessments:
-    * Level 1 and 2 based on NIST SP 800-171 r2.
-    * Level 3 will be based on NIST SP 800-172 - more info coming from DoD about level 3 assessments.
-    * Allows for reduced cost implementation and some of the original self-attestation benefits for FCI and some CUI.
-      * There is more ability for the DoJ (Department of Justice) to pursue fraud (noncompliance).
-  * Flexible implementation:
-    * CMMC 2.0 lets for "near completion" status through the POA&M (Plan of Action & Milestones) process 100% perfection was unrealistic.
-    *  POA&Ms must be completed in 180 days and are not allowed on the most high-weighted requirements.
-    *  Allows for some CMMC wavers in VERY specific cases. 
+##### CMMC v2.0 requirements:
+* New 2.0 goals: safeguard info, enhance DIB for cyber threats, ensure accountability, contribute to a collaborative culture, and maintain public trust.
+* New Features: Tiered model, assessment requirement, and implementation through contracts. </br></br></br>
+* Streamlined model:
+  * There are 3 tiers instead of the original 5 and simplified instead of having 2 & 3 and 4 & 5 being similar and 2 & 4 being a stepping stone to 3 & 5.
+  * Additional documentation requirements removed (although 2.0 requires a lot of documentation still)
+* Reliable Assessments:
+  * Level 1 and 2 based on NIST SP 800-171 r2.
+  * Level 3 will be based on NIST SP 800-172 - more info coming from DoD about level 3 assessments.
+  * Allows for reduced cost implementation and some of the original self-attestation benefits for FCI and some CUI.
+    * There is more ability for the DoJ (Department of Justice) to pursue fraud (noncompliance).
+* Flexible implementation:
+  * CMMC 2.0 lets for "near completion" status through the POA&M (Plan of Action & Milestones) process 100% perfection was unrealistic.
+  *  POA&Ms must be completed in 180 days and are not allowed on the most high-weighted requirements.
+  *  Allows for some CMMC wavers in VERY specific cases. 
 * Rulemaking and timeline for CMMC v2.0
   * Requirements to be passed 2022/2023
   * DIB to enhance Cyber posture before the release
@@ -101,13 +101,13 @@ The 17 Basic Level 1 Security Requirements
 15. Perform periodic scans of the system and real-time scans of files from external sources as files are downloaded, opened, or executed
 
 
-The 110 Level 2 Security Requirements
+##### The 110 Level 2 Security Requirements
 * Mirror NIST SP 800-171 r2
   * NIST SP 800-171 r2 has an ```Appendix E: NFO Controls``` that should be considered when addressing these.
   * Users should utilize CMMC Assessment Guide Level 2
 
 
-Self vs Third-Party Assessments:
+##### Self vs Third-Party Assessments:
 * All Level 1 and some Level 2 data does "not include data critical to national security" - this means the self-assessment is acceptable.
   * Requires annual assessments
   * Requires affirmation from a senior company official
@@ -122,7 +122,7 @@ Self vs Third-Party Assessments:
   * Improved overall risk profile
 
 </br></br>
-### Non-Compliance Consequences:
+##### Non-Compliance Consequences:
 * Failure to receive the awarded contract:
   * Non-compliance would mean losing out on the contract. They cannot accept the contract without the proper certifications (they can bid on one though). (Level 1 or Level 2)
   * Compliance must be checked by the SPRS system by an officer.
