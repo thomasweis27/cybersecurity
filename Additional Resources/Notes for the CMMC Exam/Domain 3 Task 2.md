@@ -1,28 +1,63 @@
 # Domain 3 Task 2
+## Roles, Responsibilities, and Authority of FCI and CUI
+### Importance of Classification, Collection, and Analysis
+* 
+Basic Vs. Specified CUI
+* 
+
+### Contractor Sensitive Data Categories: 
+FCI:
+* 4.1901 of the FAR
+* 
+CUI:
+* Part 2002 of Title 23 CFR, 2002.4(h)
+* 
+
+### Government Authority for identifying and Marking CUI
+* 
+Executive Order 13556
+*
+32 CFR Part 2002 (Implementing Directive)
+* 
+DoD instruction 5200.48: CUI
+* 
+
+### Contractor and Authorised Parties for Handling CUI
+* 
+DoDI 5200.48
+* 
+Part 2002 of Title 32 CFR
+* 
+
+
+
+
+</br></br></br></br></br></br>
+## Additional Notes from the In-Person Class
 
 Importance of Data Classification, Collection, and Analysis
 CUI Basic vs Specified: Section 2002.14 Safeguarding.
 * (b) CUI safeguarding standards. Authorized holders must safeguard CUI using one of the following types of standards:
   * (I) CUI Basic. CUI Basic is the default set of standards authorized holders must apply to all CUI unless the CUI Registry annotates that CUI as CUI Specified.
   * (2) CUI Specified.
-    * (i) Authorized holders safeguard CUI Specified in accordance with the requirements of the underlying authorities indicated in the CUI Registry.
-    * (ii) When the laws, regulations, or Government-wide policies governing a specific type of CUI Specified are silent on either a safeguarding or disseminating control, agencies must apply CUI Basic standards to that aspect of the information's controls, unless this results in treatment that does not accord with the CUI Specified authority. In such cases, agencies must apply the CUI Specified standards and may apply limited dissemination controls listed in the CUI Registry to ensure they treat the information in accord with the CUI Specified authority.
+    * (i) Authorized holders safeguard CUI, as specified per the requirements of the underlying authorities indicated in the CUI Registry.
+    * (ii) When the laws, regulations, or Government-wide policies governing a specific type of CUI Specified are silent on either safeguarding or disseminating control, agencies must apply CUI Basic standards to that aspect of the information's controls, unless this results in treatment that does not accord with the CUI Specified authority. In such cases, agencies must apply the CUI Specified standards and may apply limited dissemination controls listed in the CUI Registry to ensure they treat the information in accordance with the CUI Specified authority.
 
 4.1901 FCI Definitions.
-* Covered contractor information system means an information system that is owned or operated by a contractor that processes, stores, or transmits Federal contract information.
+* A covered contractor information system is an information system that is owned or operated by a contractor and processes, stores, or transmits federal contract information.
 * Federal contract information means information, not intended for public release, that is provided by or generated for the Government under a contract to develop or deliver a product or service to the Government, but not including information provided by the Government to the public (such as that on public Web sites) or simple transactional information, such as that necessary to process payments.
 * Information means any communication or representation of knowledge such as facts, data, or opinions in any medium or form, including textual, numerical, graphic, cartographic, narrative, or audiovisual (Committee on National Security Systems Instruction (CNSSI) 4009).
-* Information system means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information (44 U.S.C. 3502).
+* Information system means a discrete set of information resources organized for collecting, processing, maintaining, using, sharing, disseminating, or disposing of information (44 U.S.C. 3502).
 * Safeguarding means measures or controls that are prescribed to protect information systems.
 
 CUI
 * Part 2002 of Title 32 CFR, 2002.4(h)
   * Controlled Unclassified Information (CUI) is information the Government creates or possesses, or that an entity creates or possesses for or on  behalf of the Government, that a law, regulation, or Government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls.
-* Execuritve Order 13556 - NARA
+* Executive Order 13556 - NARA
   * 32 Code of Federal Regulations, Part 2002 (Implementing Directive)
   * DoD Instruction 5200.48, Controlled Unclassified Information (CUI)
 * NARA - National Archives and Records Administration (DoD is not in charge - NARA is)
-* ISOO - Information Security Oversite Office: Department in NARA for CUI (handels operations)
+* ISOO - Information Security Oversite Office: Department in NARA for CUI (handles operations)
 
 
 32 Code of Federal Regulations, Part 2002
@@ -34,10 +69,10 @@ CUI
 * Manage the Federal CUI program
 
 DoD Instruction 5200.48 - Controlled Unclassified Information (CUI)
-* This paragraph covers the essential marking requirements for initial phased implementation of the DoD CUI Program.
-* a. At minimum, CUI markings for unclassified DoD documents will include the acronym "CUI" in the banner and footer of the document.
+* This paragraph covers the essential marking requirements for the initial phased implementation of the DoD CUI Program.
+* a. At ma inimum, CUI markings for unclassified DoD documents will include the acronym "CUI" in the banner and footer of the document.
 * b. If portion markings are selected, then
-  * all document subjects and titles, as well as individual sections, parts, paragraphs, or similar portions of a CUI document known to contain CIJI, will be portion marked with "(CUI)."
+  * All document subjects and titles, as well as individual sections, parts, paragraphs, or similar portions of a CUI document known to contain CIJI, will be portion marked with "(CUI)."
   * Use of the unclassified marking "(U)" as a portion marking for unclassified information within CUI documents or materials is required.
  
 
@@ -74,27 +109,4 @@ Contractor/Authorized Holders' Responsibilities In Handling CUI
 * **Not the name and numbers of these Parts - don't need to know exactly everything in it.**
 
 
-
-
 Some more info on the Specific controls 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
