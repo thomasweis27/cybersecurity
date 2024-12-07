@@ -1,7 +1,7 @@
 # Domain 1: Task 1
 ## CMMC Ecosystem and Agencies:
 ### Cybersecurity Maturity Model Certification Accreditation Body (CMMC-AB)
-Organizations Seeking Certification (OSC) (Organization)
+##### Organizations Seeking Certification (OSC) (Organization)
 * Purpose: Become a member of the Defence Industrial Base to hold a gov contract with CUI or FCI
 * Process for becoming an  OSC:
   * Identify the wanted CMMC Level - needed to understand requirements before bidding on contracts
@@ -15,7 +15,7 @@ Organizations Seeking Certification (OSC) (Organization)
   * Maintain assessment level:
     * Level 1 & 2: Self-assessment every one year
     * Level 2: Every 3 years C3PAO assessment renewal
-CMMC Third-Party Assessment Organizations (C3PAO) (Organization) (Assessments)
+##### CMMC Third-Party Assessment Organizations (C3PAO) (Organization) (Assessments)
 * Purpose: manage CMMC assessment teams and contract with OSCs to conduct assessments
 * To be a C3PAO org, the org must:
   * Sign the C3PAO Lisense Agreement
@@ -32,7 +32,7 @@ CMMC Third-Party Assessment Organizations (C3PAO) (Organization) (Assessments)
   * enter into a contract to do assessments
   * use the 'partnership kit' and CMMC-AB listing directory
   * Use CMMC Assessment Process Tools, Assessment guides, and future tools  
-Registered Provided Organizations (RPO) (Organization) (Preparation)
+##### Registered Provided Organizations (RPO) (Organization) (Preparation)
 * Purpose: Can have its employees provide advice, consulting, and recommendations for OSCs creating Cybersecurity programs to meet CMMC requirements
 * Requirements for becoming an RPO:
   * Receive registration from CMMC-AB
@@ -45,7 +45,7 @@ Registered Provided Organizations (RPO) (Organization) (Preparation)
   * can offer consulting advice, NOT assessments
   * Listed on the CMMC-AB marketplace
   * Must follow the CMMC-AB code of conduct
-Registered Practitioner (RP) (Individual) (Preparation)
+##### Registered Practitioner (RP) (Individual) (Preparation)
 * Purpose: A non-certified advisory service with basic knowledge of CMMC (less rigorous than CCP or CCA)
 * RPs Must:
   * Register with CMMC-AB and sign agreement
@@ -57,7 +57,7 @@ Registered Practitioner (RP) (Individual) (Preparation)
 </br></br>
 
 ### CMMC Assessors and Instructors Certification Organization (CAICO)
-Licensed Partner Publisher (LPP) (Organization) (Education)
+##### Licensed Partner Publisher (LPP) (Organization) (Education)
 * Purpose: Create curricula for different CMMC courses - this is the only entity that is allowed to make CMMC Approved Training Materials (CATM)
 * LTPs MUST get training material from an LPP - currently, 20 orgs for this are restricted by the DoD
 * Requirements:
@@ -77,7 +77,7 @@ Licensed Partner Publisher (LPP) (Organization) (Education)
   * marketing support from CMMC-AB
   * Content marked "Approved by CMMC-AB"
   * Can market as a "CMMC-AB Licensed Partner Publisher"
-Licensed Training Provider (LTP) (Organization) (Training)
+##### Licensed Training Provider (LTP) (Organization) (Training)
 * Purpose: Provide training and classes created by an LPP - LTPs are required for CCP and CCA certifications
 * Requirements:
   * Application fee
@@ -94,7 +94,7 @@ Licensed Training Provider (LTP) (Organization) (Training)
   * Be on the CMMC-AB marketplace
   * CMMC-AB marketing support
   * Org can be marketed as a "CMMC-AB Licensed Training Provider"
-Provisional Assessors (PA) (Individual) (Assessments)
+##### Provisional Assessors (PA) (Individual) (Assessments)
 * Purpose: Meet the initial demands of CMMC Pilot Assessments and help develop the methodology behind assessments - will usually be lead assessors for C3PAO CMMC assessments
 * Selection requirements: 10+ years experience in evidence-based assessments OR 20+ provisional experience in consulting/cyber in addition to passing DoD 8570 IAM Level III Cert.
 * After initial selections must:
@@ -110,7 +110,7 @@ Provisional Assessors (PA) (Individual) (Assessments)
   * Conduct assessments, report initial issues, modification, etc., to CMMC-AB
 * Benefits are outdated but still on the CMMC-AB site
 * These assessors must pass the CCP and CCA exams within 6 months of the exam creation and viability
-Provisional Instructors (PI) (Individual) (Training)
+##### Provisional Instructors (PI) (Individual) (Training)
 * Purpose: Deliver training to the CCP and CCA trainees
 * Requirements:
   * Needed to pass the Registered Practitioner and Provisional Assessor requirements OR 10+ years in the IT/cyber field
@@ -125,7 +125,7 @@ Provisional Instructors (PI) (Individual) (Training)
   * Convey real-life experience and info
   * Deliver CMMC-approved exam prep
   * Participate in ongoing CMMC assessments
-Certified CMMC Profesional (CCP) (Individual) (Assessments)
+##### Certified CMMC Profesional (CCP) (Individual) (Assessments)
 * Purpose: First step to becoming a CCA, or understanding requirements for OSC, consulting organization (e.g., RPO, MSP)
 * CCP Requirements:
   * Possess a degree in Cyber/IT OR 2+ years experience in the field
@@ -142,7 +142,7 @@ Certified CMMC Profesional (CCP) (Individual) (Assessments)
   * Cyber consultants
   * Federal employees
   * CMMC Assessment Team Members
-Certified CMMC Assessor (CCA) (Individual) (Assessments)
+##### Certified CMMC Assessor (CCA) (Individual) (Assessments)
 * Purpose: Builds on the qualifications for CCP, and conducts level 2 assessments under the umbrella of the C3PAO
 * This has more stringent qualifications for the use and assessment of CUI
 * CCA Requirements:
@@ -165,16 +165,16 @@ Certified CMMC Assessor (CCA) (Individual) (Assessments)
   * Have the same skills as the CCPs and if they want CCAs too.
   * Participate in ongoing CMMC assessments to gather skills
   * Assist in the development and review of LLP materials
-Certified CMMC Instructor (CCI) (Individual) (Training)
+##### Certified CMMC Instructor (CCI) (Individual) (Training)
 * Requirements:
   * 2+ years of instruction in IT/Cyber experience
   * CCP Specific: college degree in a technical field, 2+ years in IT/Cyber field, hold CCP cert, and gain CMMC-AB approval of CCI application
   * CCA Specific: 4+ years Cyber/It experience, complete LTP training & have CCA cert, complete tier 3 background check, and be US citizen
-Assessment Team Member (ATM) (Individual)
+##### Assessment Team Member (ATM) (Individual)
 * CCA or CCP professional to go through the CMMC Assessment Process (CAP) - this is led by a Provisional Assessor (PA) or Lead Assessor "at the target level or higher"
 * CCA Only: Can serve as a Lead Assessor with an additional cert. or serve as an ATM evaluating OSC implementation (Level 1 or 2)
 * CCP: Assist with administrative tasks, and evaluate OSC Level 1 evidence only.
-CMMC Lead Assessor (Individual)
+##### CMMC Lead Assessor (Individual)
 * Purpose: Oversee and manage the assessments and ensure their accuracy. They have the strictest set of requirements.
 * Must be CCP and CCA, hold an additional advances cert, and be registered as a Team Lead at the CMMC-AB site. 
 
