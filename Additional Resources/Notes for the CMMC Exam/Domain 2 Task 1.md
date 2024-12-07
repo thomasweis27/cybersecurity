@@ -1,15 +1,15 @@
 # Domain 2 Task 1 
 ## Code of Professional Conduct (& Ethics)
 
-General Ethics Topics
+### General Ethics Topics
 * Purpose: Ensure that there is trust, honesty, and accountability between OSCs, Assessors, Lead Assessors, and Training groups (LTP and LLP)
-CMMC-AB Code of Professional Ethics (CoPE)
+### CMMC-AB Code of Professional Ethics (CoPE)
 * Purpose: A code of conduct for all CMMC-AB accredited individuals and ecosystem members.
 * Determine the performance and accountability standards of CMMC ecosystem members.
 
 </br>
 
-ISO (International Standards of Standardization)/IEC
+### ISO (International Standards of Standardization)/IEC
 * Purpose: International Body creating standards ranging from various topics.
 * ISO principles and directives:
   * Contribute and promote the development of standards
@@ -19,7 +19,7 @@ ISO (International Standards of Standardization)/IEC
 
 </br>
 
-DoD requirements
+### DoD requirements
 * The DoD will continuously approve Conflict of Interest policies brought up to the CMMC-AB.
 * Conflict of interest policies include:
   * Professionalism
@@ -88,26 +88,26 @@ DoD requirements
     * Purpose: Essential for protecting both parties for security and trust, these can take a while before signed by both parties and can go through many iterations
 
 </br></br>
-## Responses for Potential Violations:
-Reporting Violations: 
-* If there is a CoPE violation privately request verification and offer to rectify the violation.
-* If this is insufficient, then submit a report.
-CoPE violation Report Submission:
-* Submissions can be anonymous
-* CMMC can investigate any violations that arise from unusual behavior.
-* They can then start an investigation on the report filed.
-Investigation Resolution:
-* CMMC-AB will respond to all incidents
-* Incidents outside the scope can be reported to Government authorities
-* Industry Working Group chairs can resolve potential violations without the need for the CMMC-AB.
-Corrective Action: 
-* CMMC-AB can decide to take corrective action - they are the only ones who made this decision
-* Corrective action includes warning, remediations, suspension, denial of renewal, or temporary/permanent removal of CMMC-AB accreditations.
-* Workgroup chairs can take action without CMMC-AB interference. 
-Corrective Action Review:
-* An appeal can be made within 30 days of the CMMC-AB notice. 
+### Responses for Potential Violations:
+* Reporting Violations: 
+  * If there is a CoPE violation privately request verification and offer to rectify the violation.
+  * If this is insufficient, then submit a report.
+* CoPE violation Report Submission:
+  * Submissions can be anonymous
+  * CMMC can investigate any violations that arise from unusual behavior.
+  * They can then start an investigation on the report filed.
+* Investigation Resolution:
+  * CMMC-AB will respond to all incidents
+  * Incidents outside the scope can be reported to Government authorities
+  * Industry Working Group chairs can resolve potential violations without the need for the CMMC-AB.
+* Corrective Action: 
+  * CMMC-AB can decide to take corrective action - they are the only ones who made this decision
+  * Corrective action includes warning, remediations, suspension, denial of renewal, or temporary/permanent removal of CMMC-AB accreditations.
+  * Workgroup chairs can take action without CMMC-AB interference. 
+* Corrective Action Review:
+  * An appeal can be made within 30 days of the CMMC-AB notice. 
 
-</br></br></br>
+</br></br></br></br></br></br>
 
 ---
 
