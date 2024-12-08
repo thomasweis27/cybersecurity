@@ -1,33 +1,99 @@
 # Domain 3 Task 2
 ## Roles, Responsibilities, and Authority of FCI and CUI
 ### Importance of Classification, Collection, and Analysis
-* 
-Basic Vs. Specified CUI
-* 
+* Cyber costs the U.S. $57-109 billion annually
+* To protect sensitive data, data needs to be sorted for future use, compliance must be ensured, and data must be identified and located.
+* To protect CUI NARA created the CUI registery.
+  * This tracts the data put into different categories '
+* DoD Instruction 5200.48 CUI: implementation of CUI program and guidance on the registry. 
+##### Basic Vs. Specified CUI
+* Title 32, Subtitle B, Part 2002: Provides specifics on the types of CUI (Basic vs Specified)
+* Basic: All CUI is basic unless the CUI registry labels CUI as Specified.
+* Specified: in addition to basic CUI, standards on limited dissemination controls from the CUI registry may be required for the Specified Authority
 
 ### Contractor Sensitive Data Categories: 
-FCI:
-* 4.1901 of the FAR
-* 
-CUI:
+##### FCI:
+* Based on the FAR: Required components to work with the Executive Branch.
+* 4.1901 of the FAR defines FCI
+* FCI: Info not for public release created by/for the government.
+* This doesn't apply to commercial off-the-shelf (COTS) items available to non-DoD individuals/companies 
+##### CUI:
+* Managed by NARA, standardizes Executive Branch Agencies handling Unclassified info and dissemination controls. 
 * Part 2002 of Title 23 CFR, 2002.4(h)
-* 
+* Safeguarding/Dissemination:
+  * Company must control & protect info w/out specific controls: CUI Basic
+  * Company must control & protect info w/ specific controls: CUI Specific
+  * Company must control & protect info w/ some specific controls but not for everything: CUI Specific for specified items, otherwise CUI basic for other CUI items. 
+* CUI doesn't require info to be created for the gov to be CUI (e.g., new weapons being tested but contracted/requested for the gov. would still have CUI data)
+* NARA specifies 20 categories of CUI - intended to be dynamic and allow for new addition types to be added to the list/subcategories
+  * Critical Infastructure
+  * Defence
+  * Export Control
+  * Financial
+  * Immigration
+  * Intelligence
+  * International Agreements
+  * Law Enforcement
+  * Legal
+  * Natural and Cultural Resources
+  * NATO
+  * Nucular
+  * Patent
+  * Privacy
+  * Procedures and Acquisition
+  * Proprietary Business Information
+  * Provisional Statistical
+  * Tax
+  * Transportation
 
 ### Government Authority for identifying and Marking CUI
-* 
-Executive Order 13556
-*
-32 CFR Part 2002 (Implementing Directive)
-* 
-DoD instruction 5200.48: CUI
-* 
+* After 9/11 there created the A-Hoc creation of agency-specific policies and restrictions for CUI data.
+* Inconsistency is what caused the need for CUI standardization
+##### Executive Order 13556
+* EO 13556 CUI implemented a governing body for CUI control
+* NARA was appointed for CUI oversite
+##### 32 CFR Part 2002 (Implementing Directive)
+* EO 13556 was implemented through 32 CFR Part 2002
+* Designates NARA as the governing body and 
+##### DoD instruction 5200.48: CUI
+* DoDI 5200.48 establishes policy, assigns responsibility, and prescribes procedures for CUI throughout the DoD
+  * This is in accordance with EO 13556, 32 CFR 2002, DFARS Sections 252.204-7008 and 252.204-7012
+* DoD 5200.48 states CUI requirements include:
+  * "CUI" in the header and footer of the documents
+  * If some items are unclassified the whole doc is labeled "CUI" with parts labeled "U" for unclassified
+  * For classified doc with CUI, the CUI will be marked in the paragraph (not header or footer, the paragraph)
+  * "NOFORN"/"NF" means not releasable to foreign nationals.
+  * All docs (including legacy docs) are to be reviewed for CUI and labeled
+  * CUI must contain the labels:
+    * Controlled By: [Name of DoD component]
+    * Controlled by: [Name of office]
+    * CUI Category: [May be more than one type]
+    * Distribution/Dissemination Control:
+    * Point of Contact
+  * There is not a required distinction between the Basic and Specific CUI unless a new rule/reg/policy is issued. 
 
 ### Contractor and Authorised Parties for Handling CUI
-* 
-DoDI 5200.48
-* 
-Part 2002 of Title 32 CFR
-* 
+* Per 32 CFR Part 2002 the contractor/authed user must protect the CUI:
+  * Establish and use controlled environments for CUI
+  * Reasonable ensure unauthed individuals cannot access, see, or hear CUI
+  * Keep it under the Authed User's direct control OR maintain one physical barrier preventing access to the item.
+  * Protect Confidentiality that authed users process, store, or transit.
+##### DoDI 5200.48 Directives
+* Per DoDI 5230.09 and the 8/14/2014 Deputy Secretary of Defence Memo:
+  * CUI holder must ensure prepublication and security policy review is conducted before ready for public release
+  * Decontrolling/releasing CUI will be done by the originator of the info
+* OSAs will determine if CUI under their controls should be classified following Vol 1 of DoDM 5200.01
+* DoD info processing, storing, or transmitting CUI will be categorized at the “moderate” confidentiality impact level and follow the guidance in DoDIs 8500.01 and 8510.01.
+* Non-DoD information systems processing, storing, or transmitting CUI will provide adequate security in accordance with DoDI 8582.01.
+* The DoD CUI Registry provides a list of the Indexes/Categories used to identify CUI.
+* The DoD CUI Registry mirrors the National CUI Registry but provides extra info on the relationships to the DoD by "aligning each Index and Category to DoD issuances."
+##### Part 2002 of Title 32 CFR
+* Protects CUI under the control of an authed user.
+* Authed users must:
+  * Establish controlled environments for CUI protection
+  * Ensure unauthed users cannot access/see/hear CUI
+  * Keep it under their direct control or one physical barrier at all times
+  * Protect confidentiality of the CUI
 
 
 
