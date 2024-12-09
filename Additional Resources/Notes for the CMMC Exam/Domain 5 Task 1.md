@@ -1,7 +1,6 @@
 # Domain 5 Task 1
 ## Phase 1-Plan and Prepare Assessment:
-### Validation criteria for OSC's assessment evidence
-* There are 6 steps for Phase 1:
+### 6 steps for Phase 1:
 ##### Recieve CMMC Assessment Request from the OSC:
 * The OSC initiates the process, contacting a C3PAO
 * C3PAO will confirm the logistics of the assessment
@@ -40,6 +39,36 @@
   * logistical readiness
   * assessment risk status
   * Overall feasibility
+### Validation criteria for OSC's assessment evidence
+* The method and mode must be documented for assessment evidence.
+* Documentation types can be different depending on the location assessed, including:
+  * documentation
+  * Screenshots
+  * Interview notes
+  * system artifacts
+  * physical inspection
+* Evidence Collection is to be done virtually
 ### Analyze CMMC Practice Requirements
+* Per CAP, Assessors should use CMMC Assessment Guide Level 2, Version 2.0
+* Validation uses the following scoring:
+  * Met - the practice is met, and this contains statements as to why and the corresponding evidence. 
+  * Not Met - The practice is not met, and there is documentation as to why the controls are not enough.
+  * Not Applicable - The practice is marked N/A and a reason for N/A is documented. 
+* Validation of the self-assessment should be done for framing and accuracy. 
 ### CMMC Assessment Plan
+* The plan is iterative through Phase one
+* The plan is submitted to CMMC eMASS following phase one
+* The plan must be validated by the OSC assessment official, Lead Assessor, and C3PAO
+* The plan has updates added for changes, including but not limited to:
+  * Scope changes
+  * OSC organization's scope and function changes
+  * date/time changes for scheduled events
+  * Any disruptions before Phase 1 or during Phase 2.
 ### CMMC Readiness Review Process
+* Before Phase 2 the readiness to conduct assessment must be verified. This includes:]
+  * prep of the assessment team
+  * ID of obtaining, verifying, and inventorying evidence
+  * Perform a Certification Assessment Readiness Review (CA-RR)
+  * identify risks
+  * Update the plan
+  * Upload the Pre-Assessment Template Package to the CMMC eMASS
