@@ -12,3 +12,5 @@
 * Assist in delivering the recomended Results
 ### Remediate Outstanding Issues
 * Awareness of CCP's Role in POA&M Process
+
+```Note: I passed this exam in late 2024 before adding the remaining documentation to this section.```

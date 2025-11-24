@@ -6,3 +6,5 @@ DoD Assessment Methodology and POA&M Scoring
 * Qualifying Items </br></br>
 
 CMMC AG CA.L2-3.12.2 - Plan of Action Objectives and Requirements
+
+```Note: I passed this exam in late 2024 before adding the remaining documentation to this section.```

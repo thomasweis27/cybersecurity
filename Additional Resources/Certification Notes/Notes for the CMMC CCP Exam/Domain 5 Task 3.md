@@ -21,3 +21,5 @@
 ### Final Findings on the Assessment Report
 ### Lead Assor Submits Assessment Report and Review Process to C3PAO and OSC
 ### Package and Archive the Assessment for Future Records/Questions
+
+```Note: I passed this exam in late 2024 before adding the remaining documentation to this section.```
